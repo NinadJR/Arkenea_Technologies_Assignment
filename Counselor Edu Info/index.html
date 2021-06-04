@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Conselor Edu Info</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- Font Awesome style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+
+  <body>
+    <div class="app header-default side-nav-dark">
+      <div class="layout">
+        <!-- Header START -->
+        <div class="header navbar">
+          <div class="header-container">
+            <div class="nav-logo">
+              <a href="index.html">
+                <b><img src="assets/img/logo.png" alt=""></b>
+              </a>
+            </div>
+            <ul class="nav-left">
+              <li>
+                <a class="sidenav-fold-toggler" href="javascript:void(0);">
+                  <i class="lni-menu"></i>
+                </a>
+                <a class="sidenav-expand-toggler" href="javascript:void(0);">
+                  <i class="lni-menu"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav-right">
+              <li class="user-profile dropdown dropdown-animated scale-left">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img class="profile-img img-fluid" src="assets/img/user_image.png" alt=""> 
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Header END -->
+
+        <!-- Side Nav START -->
+        <div class="side-nav expand-lg">
+          <div class="side-nav-inner">
+            <ul class="side-nav-menu">
+              <center>
+              <img src="assets/img/user_image.png" class="user_img_sidebar">
+                    <h4>Dr. Jack D Bachas</h4>
+                    <h5>Provider</h5>
+                  </center>
+              
+              <li class="nav-item dropdown open">
+                <a href="#" class="dropdown-toggle">
+                  <span class="icon-holder">
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <span class="title">Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                    <span class="icon-holder">
+                      <i class="fas fa-clipboard"></i>
+                    </span>
+                    <span class="title">My Appoinments</span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <span class="icon-holder">
+                    <i class="fas fa-user-friends"></i>
+                  </span>
+                  <span class="title">Profile Management</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <span class="icon-holder">
+                    <i class="fas fa-cog"></i>
+                  </span>
+                  <span class="title">Settings</span>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="#">
+                  <span class="icon-holder">
+                    <i class="fas fa-power-off"></i>
+                  </span>
+                  <span class="title">Logout</span>
+                </a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+              <!-- Breadcrumb Start -->
+              <div class="breadcrumb-wrapper row">
+                <div class="col-12 col-lg-3 col-md-6">
+                  <h4 class="page-title">Dashboard
+                  <p class="breadcrumb">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+
+                    <span class="active"> &nbsp;&nbsp;/ Home</span>
+                  </p></h4>
+                </div>
+              </div>
+              <!-- Breadcrumb End -->
+            </div>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <ul class="list-task list-group">
+                      <div class="user-info">
+                        <center>
+                          <h3>Dr. Jack D. Bachas</h3>
+                          <h4>Provider</h4>
+                          <img src="assets/img/user_image.png">
+                          <p><i class="fas fa-envelope"></i>jackbachas@gmail.com</p>
+                          <p><i class="fas fa-phone-alt"></i>+1-213-254-7896</p>
+                          <p><i class="fas fa-male"></i>Male</p>
+                        </center>
+                      </div>
+                    </ul>
+                  </div>
+                  <div class="card">
+                    <ul class="list-task list-group">
+                      <div class="conselor-info">
+                        <div class="tab">
+                          <button class="tablinks" onclick="openInfo(event, 'About')" id="defaultOpen">About</button>
+                          <button class="tablinks" onclick="openInfo(event, 'Information')">Information</button>
+                        </div>
+                        
+                        <div id="About" class="tabcontent">
+                          
+                          <p>Dr. Marsh is always transparent with his patients about their health and treatment options. He insists on his patients being well-informed decision makers on issues affecting their health and well-being. He is certified by the American Board of Internal Medicine. In the office, Dr. Marsh focuses on hypertension, diabetes care, aesthma, thyroid care, migraine, high cholesterol, back pain, refulx disease, obesity, weight loss, annual physiocal, Women's Health, and anemia.</p>
+                        </div>
+                        
+                        <div id="Information" class="tabcontent">
+                          
+                          <p>&&&Dr. Marsh is always transparent with his patients about their health and treatment options. He insists on his patients being well-informed decision makers on issues affecting their health and well-being. He is certified by the American Board of Internal Medicine. In the office, Dr. Marsh focuses on hypertension, diabetes care, aesthma, thyroid care, migraine, high cholesterol, back pain, refulx disease, obesity, weight loss, annual physiocal, Women's Health, and anemia.</p> 
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                  <div class="follow">
+                    <div class="card">
+                      <div class="card-header">
+                        <h4 class="card-title"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;About Me</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <h4 class="card-title-select"><i class="fas fa-cog"></i>&nbsp;&nbsp;Add or Edit All Information</h4>
+                        <div class="card-toolbar">
+                          
+                        </div>
+                      </div>
+                      <div class="client-item">
+                        <p style="font-size: large; color: #168ae6;"><span style="font-weight: bold;">Educational</span><span> Information</span></p>
+                        <div class="info">                          
+                          <p style="font-size: large; font-weight: bold; color: #808080;">School and Bord Information</p>
+                          <div>
+                            <input type="text" placeholder="Name of School">
+                            <input type="date" placeholder="Year of Graduation">
+                            <i class="fas fa-trash"></i>
+                          </div>
+                          <div>
+                            <input type="text" placeholder="Name of School">
+                            <input type="date" placeholder="Year of Graduation">
+                          </div>
+                          <div class="float-item">
+                            <button class="btn btn-common btn-rounded">+ Add more</button>
+                          </div>
+                        </div>
+                        <div class="info" style="margin-top: 25px;">                          
+                          <p style="font-size: large; font-weight: bold; color: #808080;">School and Bord Information</p>
+                          <div>
+                            <input type="text" placeholder="Name of School">
+                            <input type="date" placeholder="Year of Graduation">
+                            <i class="fas fa-trash"></i>
+                          </div>
+                          <div>
+                            <input type="text" placeholder="Name of School">
+                            <input type="date" placeholder="Year of Graduation">
+                            <i class="fas fa-trash"></i>
+                          </div>
+                          <div class="float-item">
+                            <button class="btn btn-common btn-rounded">+ Add more</button>
+                          </div>
+                        </div>
+                        <div class="info" style="margin-top: 25px;">                          
+                          <p style="font-size: large; font-weight: bold; color: #808080;">Upload license, certificates, etc.</p>
+                          <div>
+                            
+                            <div class="upload_box">
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                <div class="upload">
+                                  <figure>
+                                  <img src="assets/img/user_image.png" width="150px" height="150px" alt="" srcset="">
+                                  <figcaption>User Image &nbsp;<i class="fas fa-trash"></i></figcaption>
+                                  </figure>
+                                </div>
+                                
+                                <div class="upload">
+                                  <i class="fas fa-cloud-upload-alt upload_files"></i>
+                                  <p>Upload Files</p>
+                                </div>
+                            </div>
+                            
+                            
+                          </div>
+                          <div class="float-item">
+                            <button class="btn btn-common btn-rounded">Save</button>
+                            <button class="btn btn-common btn-rounded">Cancel</button>
+                          </div>
+                        </div>
+                        <div class="add_info">
+                          <div style="float: left;">
+                            <p style="font-size: 25px; color: #000;"><span style="font-weight: bold;">Practice</span> Information</p>
+                            <p style="color: #8e8e8e;">Add your practice details</p>
+                          </div>
+                          <div style="float: right;">
+                            <button class="btn btn-common btn-rounded">+ Add</button>
+                          </div>
+                        </div>
+                        <div class="add_info">
+                          <div style="float: left;">
+                            <p style="font-size: 25px; color: #000;"><span style="font-weight: bold;">Pricing</span> Information</p>
+                            <p style="color: #8e8e8e;">Add your payment methods, price for various services and insurances accepted by you</p>
+                          </div>
+                          <div style="float: right;">
+                            <button class="btn btn-common btn-rounded">+ Add</button>
+                          </div>
+                        </div>
+                        <div class="add_info">
+                          <div style="float: left;">
+                            <p style="font-size: 25px; color: #000;"><span style="font-weight: bold;">Set Your Schedule</span> Information</p>
+                            <p style="color: #8e8e8e;">Set up your weekly fixed and variable schedule</p>
+                          </div>
+                          <div style="float: right;">
+                            <button class="btn btn-common btn-rounded">+ Add</button>
+                          </div>
+                        </div>
+                        <div class="add_info">
+                          <div style="float: left;">
+                            <p style="font-size: 25px; color: #000;"><span style="font-weight: bold;">Social</span> Information</p>
+                            <p style="color: #8e8e8e;">Add your social information, link your websites, add social media accounts</p>
+                          </div>
+                          <div style="float: right;">
+                            <button class="btn btn-common btn-rounded">+ Add</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.app.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!--Morris Chart-->
+    <script src="assets/plugins/morris/morris.min.js"></script>
+    <script src="assets/plugins/raphael/raphael-min.js"></script>
+    <script src="assets/js/dashborad1.js"></script>
+
+    <!-- tabs -->
+    <script>
+      function openInfo(evt, infoName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(infoName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
+
+
+
+  </body>
+</html>
